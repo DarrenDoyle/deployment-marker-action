@@ -14,7 +14,7 @@ A GitHub Action to add New Relic deployment markers during your release pipeline
 | --------------- | -------- | ------- | ----------- |
 | `accountId`     | **yes**  | -       | The account number the application falls under. This could also be a subaccount. |
 | `apiKey`        | **yes**  | -       | Your New Relic [personal API key](https://docs.newrelic.com/docs/apis/get-started/intro-apis/types-new-relic-api-keys#personal-api-key). |
-| `applicationId` | **yes**  | -       | The New Relic application ID to apply the deployment marker. |
+| `applicationId` | **yes**  | -       | The New Relic application ID to apply the deployment marker.|
 | `changelog`     | no       | -       | A summary of what changed in this deployment, visible in the Deployments page. |
 | `description`   | no       | -       | A high-level description of this deployment, visible in the Overview page and on the Deployments page when you select an individual deployment. |
 | `region`        | no       | `US`    | The region of your New Relic account. Default: `US` |
